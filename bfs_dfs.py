@@ -1,4 +1,4 @@
-```python
+
 from collections import deque
 
 graph = {
@@ -35,8 +35,6 @@ def dfs(start, visited=None):
             dfs(neighbor, visited)
 
     return visited
-
-
 bfs(0)
 print("DFS:", *dfs(0))
 ```
